@@ -15,7 +15,7 @@ nav {
   background-image: url(../css/images/taxi.jpg);
   background-position: center;
   background-size: cover;
-  text-align: center;
+  text-align: center;  
 }
 
 #conduce {
@@ -104,6 +104,6 @@ Menu
 /* Media home */
 @media (max-width: 992px) {
   .home-inner {
-    padding-top: 150px;
+    width: 150px;
   }
 }
