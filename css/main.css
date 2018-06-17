@@ -1,1 +1,102 @@
-/* Los estilos de tu proyecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navegador */
+nav {
+  z-index: 999;
+}
+
+/* Section inicio img */
+.logo {
+  padding: 10em;
+  background-image: url(../css/images/taxi.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.edge {
+  height: 320px;
+  text-align: left;
+}
+
+/** Hack de clearfix **/
+/* .row::after,
+.row::before {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Menu */
+Menu
+.burger-menu {
+  float: right;
+}
+
+.menu {
+  float: rigth;
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+  height: 56px;
+  padding: 20px 10px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.menu a:hover {
+  color: rgba(7, 1, 1, 0.09);
+}
+
+.burger {
+  float: right;
+  margin-top: 15px;
+}
+
+/* Logo */
+.logo_img {
+  font-weight: bolder;
+  float: left;
+}
+
+/* iphone */
+#iphone {
+}
+
+.white_block {
+  border: 1px solid white;
+}
+
+/* Media */
+
+/* Menu */
+@media (max-width:576px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media (min-width:576px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+/* Fin media menu */
+
+/* Media cuadro registro */
+/* @media (max-width:576px) {
+  #registry {
+    position: absolute;
+    float: center;
+  }
+} */
