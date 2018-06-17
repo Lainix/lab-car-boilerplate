@@ -11,41 +11,123 @@
 
 <body>
   <!-- Navegador -->
-  <section class="container-fluid">
-    <nav class="container-fluid hide-on-mobile menu">
-      <div class="navbar navbar-white bg-white">
-        <ul>
-          <li class="logo_img"><img src="css/images/logoForma.png" alt="Logoforma"></li>
-        </ul>
-        <div>
+  <header>
+    <section class="container-fluid">
+      <nav class="container-fluid hide-on-mobile menu">
+        <div class="navbar navbar-white bg-white">
           <ul>
-            <li><a href="#logo">Viaja</a></li>
-            <li><a href="#acerca">Conduce</a></li>
-            <li><a href="#contacto">Inicia sesión</a></li>
+            <li class="logo_img">
+              <img src="css/images/logoForma.png" alt="Logoforma">
+            </li>
           </ul>
+          <div>
+            <ul>
+              <li>
+                <a href="#logo">Viaja</a>
+              </li>
+              <li>
+                <a href="#acerca">Conduce</a>
+              </li>
+              <li>
+                <a href="#contacto">Inicia sesión</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- burger nav -->
-    <div class="pos-f-t d-md-none">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-white p-4">
-          <h6 class="text-black #logo">Viaja</h6>
-          <h6 class="text-black">Conduce</h6>
-          <h6 class="text-black">Inicia sesión</h6>
-        </div>
-      </div>
-      <nav class="navbar navbar-white bg-white">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span><img src="css/images/burger.svg" alt="burger"></span>
-          <img src="css/images/logoForma.png" alt="Logoforma">
-        </button>
       </nav>
-    </div>
-  </section>
+      <!-- burger nav -->
+      <div class="pos-f-t d-md-none">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-white p-4">
+            <h6 class="text-black #logo">Viaja</h6>
+            <h6 class="text-black">Conduce</h6>
+            <h6 class="text-black">Inicia sesión</h6>
+          </div>
+        </div>
+        <nav class="navbar navbar-white bg-white">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+              <img src="css/images/burger.svg" alt="burger">
+            </span>
+            <img src="css/images/logoForma.png" alt="Logoforma">
+          </button>
+        </nav>
+      </div>
+    </section>
+  </header>
 
-  
+  <!-- Header, Logo y registro  -->
+  <header id="home-section" style="height: 500px;">
+    <div class="dark-overlay logo">
+      <div class="home-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 d-none d-sm-block">
+              <div class="display-4"></div>
+            </div>
+            <!-- Form -->
+            <div class="col-12 col-lg-4 bg-warning">
+              <div id="registry" class="text-white bg-warning">
+                <div class="text-left hide-on-mobile">
+                  <div class="">
+                    <form action="" class="">
+                      <h3>Disfruta de tu Viaje</h3>
+                      <h3>Eres dueño de tu tiempo</h3>
+                      <span>Viaja con</span>
+                      <img src="assets/images/logoBlanco.png" alt="logo_blanco">
+                      <br>
+                      <button type="button" class="btn btn-default text-uppercase button-register fw-bold" data-toggle="modal" data-target="#modal-register">registrate</button>
+                      <hr>
+                      <span>O bien</span>
+                      <button type="button" class="btn font-bold" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"
+                        id="covierteconduct1">Conviertete en Conductor</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="hide-on-desktop">
+                  <div>
+                    <div>
+                      <p>Comienza a viajar</p>
+                      <span>con</span>
+                      <img src="assets/images/logoBlanco.png" alt="logo_blanco">
+                      <br>
+                      <button class="btn btn-default button-app" type="submit" name="button">Descarga el app</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section iphone -->
+    <div class="bg-warning">
+      <section id="iphone" class="bg-warning">
+        
+      </section>
+    </div>
+
+    <!-- Section img car -->
+    <section>
+     
+    </section>
+
+    <!-- Section map -->
+    <section class="container">
+      
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <!-- Script -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="js/assets/bootstrap.min.js"></script>

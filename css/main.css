@@ -18,6 +18,14 @@ nav {
   text-align: center;
 }
 
+#conduce {
+  padding: 10em;
+  background-image: url(../css/images/conduce.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
 .edge {
   height: 320px;
   text-align: left;
@@ -93,10 +101,9 @@ Menu
 }
 /* Fin media menu */
 
-/* Media cuadro registro */
-/* @media (max-width:576px) {
-  #registry {
-    position: absolute;
-    float: center;
+/* Media home */
+@media (max-width: 992px) {
+  .home-inner {
+    padding-top: 150px;
   }
-} */
+}
