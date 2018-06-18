@@ -12,6 +12,21 @@
 
 ![imagen movile](assets/images/v-movil.png)
 
+## 3. MODALES
+Como extra puedes añadir los modales necesarios en la versión web
+
+* Modal de Inicia Sesión
+
+![imagen modal_login](assets/images/modal-inicio-sesion.png)
+
+* Modal de Regístrate 
+
+![imagen modal_registrate](assets/images/modal-registrate.png)
+
+* Y modal de Convierte en conductor  
+
+![imagen modal_conductor](assets/images/modal-conductor.png)
+
 ## Herramientas
 
 * Html 5
