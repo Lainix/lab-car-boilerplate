@@ -30,7 +30,26 @@
                 <a href="#acerca">Conduce</a>
               </li>
               <li>
-                <a href="#contacto">Inicia sesión</a>
+                <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+
+                <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                  <div class="modal-dialog">
+                    <div class="loginmodal-container">
+                      <img class="col-md-12" src="assets/images/avatar.png" alt="avatar">
+                      <br>
+                      <form>
+                        <input type="text" name="user" placeholder="Username">
+                        <input type="password" name="pass" placeholder="Password">
+                        <input type="submit" name="login" class="login loginmodal-submit bg-warning" value="Login">
+                      </form>
+
+                      <div class="login-help">
+                        <a href="#">Forgot Password?</a>
+                        <a class="text-left text-danger" href="#">Click Here!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -78,7 +97,51 @@
                       <span>Viaja con</span>
                       <img src="assets/images/logoBlanco.png" alt="logo_blanco">
                       <br>
-                      <button type="button" class="btn btn-default text-uppercase button-register fw-bold" data-toggle="modal" data-target="#modal-register">registrate</button>
+                      <button type="button" class="btn-default text-uppercase button-register fw-bold" data-toggle="modal" data-target="#registre-modal">Registrate
+                        <div class="modal fade" id="registre-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+                          style="display: none;">
+                          <div class="modal-dialog">
+                            <div class="loginmodal-container bg-secondary">
+                              <form>
+                                <div class="form-group">
+                                  <input type="user" class="form-control bg-dark text-uppercase text-white text-center" id="exampleFormControlInput0" placeholder="Ya tienes una cuenta?">
+                                </div>
+                                <h6>O crea una cuenta</h6>
+                                <div class="form-row">
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                  <input type="phone" class="form-control" id="exampleFormControlInput2" placeholder="Telefono">
+                                </div>
+                                <div class="form-group">
+                                  <input type="password" class="form-control" id="exampleFormControlInput3" placeholder="Contraseña">
+                                </div>
+                                <div class="form-group">
+                                  <input type="city" class="form-control" id="exampleFormControlInput4" placeholder="Ciudad">
+                                </div>
+                                <div class="form-group">
+                                  <input type="code" class="form-control" id="exampleFormControlInput6" placeholder="(Opcionan) Codigo de invitación">
+                                </div>
+                                <div class="form-group">
+                                  <label for="disabledSelect"></label>
+                                  <select id="disabledSelect" class="form-control">
+                                    <option>Como te enteraste de nosotros?</option>
+                                  </select>
+                                </div>
+                                <input type="submit" name="login" class="login loginmodal-submit bg-info" value="Enviar">
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
                       <hr>
                       <span>O bien</span>
                       <button type="button" class="btn font-bold" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"
@@ -205,97 +268,97 @@
               </span>
             </div>
           </dir>
+          </div>
         </div>
-      </div>
     </section>
   </main>
-  
+
   <!-- Footer -->
   <footer class="page-footer font-small text-white bg-dark">
-      <div class="container">
-        <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-          <div class="col-md-2 mb-3">
-            <img src="assets/images/logoBlanco.png" alt="logo_blanco">
-          </div>
-          <div class="col-md-2 mb-3"></div>
-          <div class="col-md-2 mb-3"></div>
-          <div class="col-md-2 mb-3"></div>
-          <div class="col-md-2 mb-3"></div>
+    <div class="container">
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+        <div class="col-md-2 mb-3">
+          <img src="assets/images/logoBlanco.png" alt="logo_blanco">
         </div>
-        <hr class="rgba-white-light border" style="margin: 0 10%;">
-  
-        <div class="row d-flex justify-content-center">
-          <div class="col-3 mb-2">
-            <div class=" text-left">
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3"></div>
-              <div class="col-md-2 mb-3">
-                <ul class="social-pet d-flex mt-4">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-twitter"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-instagram"></i>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="text-left">
-              <div class="col-md-6 mb-2">Viaja</div>
-              <div class="col-md-6 mb-2">Conduce</div>
-              <div class="col-md-6 mb-2">Ciudades</div>
-              <div class="col-md-6 mb-2">Ciudades</div>
-              <div class="col-md-6 mb-2">Entregas</div>
-              <div class="col-md-6 mb-2">Cómo funciona?</div>
-              <div class="col-md-6 mb-2">Países</div>
-              <div class="col-md-6 mb-2">Seguridad</div>
-            </div>
-          </div>
-          <div class="col-3 mb-2 d-none d-sm-block">
-            <div class="text-left">
-              <div class="col-1">Oportunidades</div>
-              <div class="col-1">Nuestra historia</div>
-              <div class="col-1">API de LabCar</div>
-              <div class="col-1">Eventos</div>
-              <div class="col-1">Desarrolladores</div>
-              <div class="col-1">Servicios</div>
-              <div class="col-1">Laboratoria</div>
-              <div class="col-1">Coders</div>
-            </div>
-          </div>
-          <div class="col-3 mb-2">
-            <br>
-            <div class="text-left justify-content-bottom">
-              <div class="col-md-5 mb-5">
-                <img src="assets/images/appstore.png" alt="enBadgeWebGeneric">
-              </div>
-              <div class="col-md-5 mb-5">
-                <img src="assets/images/enBadgeWebGeneric.png" alt="enBadgeWebGeneric">
-              </div>
+        <div class="col-md-2 mb-3"></div>
+        <div class="col-md-2 mb-3"></div>
+        <div class="col-md-2 mb-3"></div>
+        <div class="col-md-2 mb-3"></div>
+      </div>
+      <hr class="rgba-white-light border" style="margin: 0 10%;">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-3 mb-2">
+          <div class=" text-left">
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-2 mb-3">
+              <ul class="social-pet d-flex mt-4">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-instagram"></i>
+              </ul>
             </div>
           </div>
         </div>
-        <hr class="rgba-white-light border" style="margin: 0 10%;">
+        <div>
+          <div class="text-left">
+            <div class="col-md-6 mb-2">Viaja</div>
+            <div class="col-md-6 mb-2">Conduce</div>
+            <div class="col-md-6 mb-2">Ciudades</div>
+            <div class="col-md-6 mb-2">Ciudades</div>
+            <div class="col-md-6 mb-2">Entregas</div>
+            <div class="col-md-6 mb-2">Cómo funciona?</div>
+            <div class="col-md-6 mb-2">Países</div>
+            <div class="col-md-6 mb-2">Seguridad</div>
+          </div>
+        </div>
+        <div class="col-3 mb-2 d-none d-sm-block">
+          <div class="text-left">
+            <div class="col-1">Oportunidades</div>
+            <div class="col-1">Nuestra historia</div>
+            <div class="col-1">API de LabCar</div>
+            <div class="col-1">Eventos</div>
+            <div class="col-1">Desarrolladores</div>
+            <div class="col-1">Servicios</div>
+            <div class="col-1">Laboratoria</div>
+            <div class="col-1">Coders</div>
+          </div>
+        </div>
+        <div class="col-3 mb-2">
+          <br>
+          <div class="text-left justify-content-bottom">
+            <div class="col-md-5 mb-5">
+              <img src="assets/images/appstore.png" alt="enBadgeWebGeneric">
+            </div>
+            <div class="col-md-5 mb-5">
+              <img src="assets/images/enBadgeWebGeneric.png" alt="enBadgeWebGeneric">
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- Copyright -->
-      <div class="footer-copyright py-3">© 2017 LabCar technologies Inc.
-      </div>
-    </footer>
+      <hr class="rgba-white-light border" style="margin: 0 10%;">
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright py-3">© 2017 LabCar technologies Inc.
+    </div>
+  </footer>
 
   <!-- Script -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
