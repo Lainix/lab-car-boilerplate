@@ -70,7 +70,7 @@
             <span>
               <img src="css/images/burger.svg" alt="burger">
             </span>
-            <img src="css/images/logoForma.png" alt="Logoforma">
+            <img class="img-fluid" src="css/images/logoForma.png" alt="Logoforma">
           </button>
         </nav>
       </div>
@@ -95,9 +95,9 @@
                       <h3>Disfruta de tu Viaje</h3>
                       <h3>Eres dueño de tu tiempo</h3>
                       <span>Viaja con</span>
-                      <img src="assets/images/logoBlanco.png" alt="logo_blanco">
+                      <img class="img-fluid" src="assets/images/logoBlanco.png" alt="logo_blanco">
                       <br>
-                      <button type="button" class="btn-default text-uppercase button-register fw-bold" data-toggle="modal" data-target="#registre-modal">Registrate
+                      <button type="button" class="btn btn-default text-uppercase button-register fw-bold" data-toggle="modal" data-target="#registre-modal">Registrate
                         <div class="modal fade" id="registre-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
                           style="display: none;">
                           <div class="modal-dialog">
@@ -106,7 +106,7 @@
                                 <div class="form-group">
                                   <input type="user" class="form-control bg-dark text-uppercase text-white text-center" id="exampleFormControlInput0" placeholder="Ya tienes una cuenta?">
                                 </div>
-                                <h6>O crea una cuenta</h6>
+                                <h6 class="text-white">O crea una cuenta</h6>
                                 <div class="form-row">
                                   <div class="col">
                                     <input type="text" class="form-control" placeholder="First name">
@@ -145,7 +145,54 @@
                       <hr>
                       <span>O bien</span>
                       <button type="button" class="btn font-bold" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"
-                        id="covierteconduct1">Conviertete en Conductor</button>
+                        id="covierteconduct1">Conviertete en Conductor
+                        <div class="modal fade justify-content-left" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+                          style="display: none;">
+                          <div class="modal-dialog">
+                            <div class="loginmodal-container bg-secondary">
+                              <form>
+                                <div class="form-group">
+                                  <label for="disabledSelect">¿Tienes vehículo de 4 puertas?</label>
+                                  <select id="disabledSelect" class="form-control">
+                                    <option>Si</option>
+                                  </select>
+                                </div>
+                                <div class="form-group">
+                                  <div class="form-group">
+                                    <label for="disabledSelect">Marca</label>
+                                    <select id="disabledSelect" class="form-control">
+                                      <option>Elige la marca del vehículo</option>
+                                    </select>
+                                    <small id="disabledSelect" class="form-text text-muted-sm">
+                                        No ves tu vehículo en la lista? Envía un correo electrónico a<a href="sociosmdv@uber.com"></a>
+                                    </small>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="disabledSelect">Modelo</label>
+                                    <select id="disabledSelect" class="form-control">
+                                      <option>modelo1</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="disabledSelect">Año</label>
+                                    <select id="disabledSelect" class="form-control">
+                                      <option>2017</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="disabledSelect">Número de la matrícula</label>
+                                    <input type="code" class="form-control" id="exampleFormControlInput6" placeholder="Número de la matricula">
+                                    <small id="disabledSelect" class="form-text text-muted-sm">
+                                        La información de la matrícula ayuda a los clientes a identificar tu vehículo
+                                    </small>
+                                </div>
+                                <input type="submit" name="login" class="login loginmodal-submit bg-info" value="Enviar">
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
                     </form>
                   </div>
                 </div>
@@ -154,7 +201,7 @@
                     <div>
                       <p>Comienza a viajar</p>
                       <span>con</span>
-                      <img src="assets/images/logoBlanco.png" alt="logo_blanco">
+                      <img class="img-fluid" src="assets/images/logoBlanco.png" alt="logo_blanco">
                       <br>
                       <button class="btn btn-default button-app" type="submit" name="button">Descarga el app</button>
                     </div>
@@ -179,7 +226,7 @@
           </div>
           <div class="col-12 col-md-6 col-lg-6 w-100 p-3">
             <br>
-            <img class="" src="css/images/iPhone6Plus.png" alt="iPhone">
+            <img class="img-fluid" src="css/images/iPhone6Plus.png" alt="iPhone">
           </div>
           <div class="col-md-6 col-lg-6 d-none d-md-block">
             <div class="col-md-12 col-lg-12">
@@ -231,7 +278,7 @@
                     <span>Consulta las tarifas LabCar aquí</span>
                     <div class="form-group row">
                       <label for="colFormLabel" class="col-sm-2 col-form-label">
-                        <img src="assets/images/shape.png" alt="shape">
+                        <img class="img-fluid" src="assets/images/shape.png" alt="shape">
                       </label>
                       <div class="col-sm-7">
                         <input class="form-control bg-warning" id="colFormLabel" placeholder="Insurgentes Centro, Cauhtémoc, Ciudad de México">
@@ -239,7 +286,7 @@
                     </div>
                     <div class="form-group row">
                       <label for="colFormLabel" class="col-sm-2 col-form-label">
-                        <img src="assets/images/shape2.png" alt="shape2">
+                        <img class="img-fluid" src="assets/images/shape2.png" alt="shape2">
                       </label>
                       <div class="col-sm-7">
                         <input class="form-control bg-warning" id="colFormLabel" placeholder="Carolina, Ciudad de los Deportes, Ciudad de México">
@@ -262,7 +309,7 @@
                 <div class="bg-transparent text-white">
                   <h5 class="col-md-6"></h5>
                   <div>
-                    <img class="map" src="assets/images/mexico.PNG" alt="mexico">
+                    <img class="map img-fluid" src="assets/images/mexico.PNG" alt="mexico">
                   </div>
                 </div>
               </span>
@@ -273,8 +320,8 @@
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="page-footer font-small text-white bg-dark">
+ <!-- Footer -->
+ <footer class="page-footer font-small text-white bg-dark">
     <div class="container">
       <div class="row text-center d-flex justify-content-center pt-5 mb-3">
         <div class="col-md-2 mb-3">
@@ -285,29 +332,12 @@
         <div class="col-md-2 mb-3"></div>
         <div class="col-md-2 mb-3"></div>
       </div>
-      <hr class="rgba-white-light border" style="margin: 0 10%;">
+      <hr class="rgba-white-light border" style="margin: 0 1%;">
 
-      <div class="row d-flex justify-content-center">
-        <div class="col-3 mb-2">
-          <div class=" text-left">
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3"></div>
-            <div class="col-md-2 mb-3">
+      <div class="row d-flex justify-content-left">
+        <div class="col-1 mb-1">
+          <div class="text-left">
+            <div class="mb-3">
               <ul class="social-pet d-flex mt-4">
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-twitter"></i>
@@ -317,7 +347,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="col-3 mb-2">
           <div class="text-left">
             <div class="col-md-6 mb-2">Viaja</div>
             <div class="col-md-6 mb-2">Conduce</div>
@@ -341,23 +371,29 @@
             <div class="col-1">Coders</div>
           </div>
         </div>
-        <div class="col-3 mb-2">
+        <div class="col-5 mb-3">
           <br>
           <div class="text-left justify-content-bottom">
             <div class="col-md-5 mb-5">
-              <img src="assets/images/appstore.png" alt="enBadgeWebGeneric">
+              <img class="img-fluid" src="assets/images/appstore.png" alt="enBadgeWebGeneric">
             </div>
             <div class="col-md-5 mb-5">
-              <img src="assets/images/enBadgeWebGeneric.png" alt="enBadgeWebGeneric">
+              <img class="img-fluid" src="assets/images/enBadgeWebGeneric.png" alt="enBadgeWebGeneric">
             </div>
           </div>
         </div>
       </div>
-      <hr class="rgba-white-light border" style="margin: 0 10%;">
+      <hr class="rgba-white-light border" style="margin: 0 1%;">
     </div>
     <!-- Copyright -->
-    <div class="footer-copyright py-3">© 2017 LabCar technologies Inc.
+    <div class="row text-center justify-content-left">
+      <div class="col-md-6 mb-6">
+        <div class="footer-copyright py-3">© 2017 LabCar technologies Inc.</div>
+      </div>
+      <div class="col-md-6 mb-6"></div>
     </div>
+    
+    
   </footer>
 
   <!-- Script -->
