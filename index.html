@@ -31,7 +31,7 @@
               </li>
               <li>
                 <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
-
+              <!-- modal login -->
                 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
                   <div class="modal-dialog">
                     <div class="loginmodal-container">
@@ -98,6 +98,7 @@
                       <img class="img-fluid" src="assets/images/logoBlanco.png" alt="logo_blanco">
                       <br>
                       <button type="button" class="btn btn-default text-uppercase button-register fw-bold" data-toggle="modal" data-target="#registre-modal">Registrate
+                        <!-- modal login -->
                         <div class="modal fade" id="registre-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
                           style="display: none;">
                           <div class="modal-dialog">
@@ -146,6 +147,7 @@
                       <span>O bien</span>
                       <button type="button" class="btn font-bold" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"
                         id="covierteconduct1">Conviertete en Conductor
+                        <!-- modal Conductor-->
                         <div class="modal fade justify-content-left" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                           aria-hidden="true" style="display: none;">
                           <div class="modal-dialog">
@@ -334,9 +336,22 @@
         <div class="col-md-2 mb-3"></div>
       </div>
       <hr class="rgba-white-light border" style="margin: 0 1%;">
-
       <div class="row d-flex justify-content-left">
-        <div class="col-1 mb-1">
+        <!-- columna redes muestra movil-->
+        <div class="col-12 d-md-none d-sm-block">
+          <div class="text-left">
+            <div class="mb-5">
+              <ul class="social-pet d-flex mt-4">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-instagram"></i>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- columna redes muestra desktop -->
+        <div class="col-1 mb-1 d-none d-md-block">
           <div class="text-left">
             <div class="mb-3">
               <ul class="social-pet d-flex mt-4">
